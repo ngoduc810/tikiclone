@@ -1,0 +1,133 @@
+/* mobile and tablet */
+@media only screen and (max-width:1023px) {
+    .hide__on-mobile-tablet {
+        display: none;
+    }
+    .header__up-search {
+        margin-top: 30px;
+    }
+    .search-history {
+        width: 100%;
+    }
+    .header__up-cart {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .header {
+        height: 90px;
+        background-color: royalblue;
+    }
+
+    .header__down-logo {
+        position: relative;
+        top: -70px;
+    }
+    .header__up-category-icon1 {
+        display: block;
+    }
+    .header__category-tablet-list {
+        font-size: 2rem;
+        margin-top: 40px;
+        margin-right: 30px;
+        color: var(--white-color);
+        display: block;
+        cursor: pointer;
+    }
+
+    .header__up-logo-tablet {
+        position: relative;
+        display: block;
+        width: 50px;
+        top: -80px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .header__down {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 740px) and (max-width:1023px) {
+    .hide__on-tablet {
+        display: none;
+    }
+
+    .slider-prev {
+        height: 50px;
+        width: 25px;
+    }
+
+    .slider-next {
+        height: 50px;
+        width: 25px;
+    }
+
+    .container__slider-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 2px;
+        max-width: 429px;
+    }
+
+    .container__slider-right-img {
+        height: 100%;
+        width: 100%;
+        padding-left: 4px ;
+        border-radius: 2px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 739px) {
+    .hide__on-mobile {
+        display: none;
+    }
+    .suggest {
+        position: relative;
+    }
+
+    .slider-prev {
+        height: 30px;
+        width: 15px;
+    }
+
+    .slider-next {
+        height: 30px;
+        width: 15px;
+    }
+    .header__up-login-user {
+        display: none;
+    }
+    .header__up-login {
+        display: none;
+    }
+
+    .container__deal {
+        padding-bottom: 20px;
+    }
+    .container__deal .slider-prev {
+        height: 30px;
+        width: 15px;
+    }
+    
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .container__slider-img {
+        height: 100%;
+        width: 100%;
+        border-radius: 2px;
+        max-width: 672px;
+    }
+
+    .container__slider-right-img {
+        height: 100%;
+        width: 100%;
+        padding-left: 4px ;
+        border-radius: 2px;
+    }
+}

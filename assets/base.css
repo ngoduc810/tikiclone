@@ -1,0 +1,63 @@
+:root {
+    --primary-color : rgb(16, 148, 255);
+    --black-color: #000;
+    --white-color: #fff;
+    --text-color: #333;
+    --box-shadow:box-shadow: rgb(98 98 98 / 50%) 0px 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2.0rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@keyframes scale1 {
+    from {
+        transform: scale(0)
+        }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes hide {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes shock {
+    from {
+        transform: scale(1.5);
+        opacity: 0.3;
+    }
+}
+
+.container__stick {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+.header__category-tablet-list {
+    display: none;
+}
